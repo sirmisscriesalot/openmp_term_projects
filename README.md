@@ -10,18 +10,18 @@ Two prebuilt executables are provided in ./build
 
 Use the histeq_noviz executable as - 
 
-    the flags used by this executable are - 
+    The flags used by this executable are - 
 
         -i -> file path to the input image 
         -o -> file path to the output image
         -t -> set the number of threads for multithreading
         -l -> file path to the log texts (mainly just used for visualizing the histogram of the input and output images)
 
-Example usage - ./histeq_noviz -i ../test/sample1.png -o ../test/smpout1_4tdx.png -t 4 -l ../logs/smpout1_4tdx.txt
+Example usage - ```./histeq_noviz -i ../test/sample1.png -o ../test/smpout1_4tdx.png -t 4 -l ../logs/smpout1_4tdx.txt```
 
 Use the histeq executable as - 
 
-    the flags used by this executable are 
+    The flags used by this executable are 
 
         -i -> file path to the input image 
         -o -> file path to the output image
@@ -29,16 +29,16 @@ Use the histeq executable as -
         -l -> file path to the log text file (mainly just used for visualizing the histogram of the input and output images)
         -v -> launch the visualization_tool.py 
 
-Example usage - ./histeq -i ../test/sample1.png -o ../test/smpout1_4tdx.png -t 4 -l ../logs/smpout1_4tdx.txt -v
+Example usage - ```./histeq -i ../test/sample1.png -o ../test/smpout1_4tdx.png -t 4 -l ../logs/smpout1_4tdx.txt -v```
 
 Use the visualization_tool.py script as - 
 
-    the command line args used by this script are - 
+    The command line args used by this script are - 
 
         --log -> file path to the log text file
         --inimg -> file path to the input image 
         --outimg -> file path to the output image
 
-Example usage - python3 visualization_tool.py --inimg ../test/sample1.png --outimg ../test/smpout1_4tdx.png --log ../logs/smpout1_4tdx.txt
+Example usage - ```py python3 visualization_tool.py --inimg ../test/sample1.png --outimg ../test/smpout1_4tdx.png --log ../logs/smpout1_4tdx.txt```
 
 
