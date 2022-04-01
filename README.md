@@ -1,14 +1,14 @@
 # Histogram-Equalization
 
-The source files are provided in ./src and the header files in ./include 
-Initially the sampe pictures and the histogram equalized output of the first sample image was in ./test 
+The source files are provided in ```./src``` and the header files in ```./include``` 
+Initially the sampe pictures and the histogram equalized output of the first sample image was in ```./test``` 
 Currently it contains a single histogram equalized output of the first image
 
-You can build the histogram_equalization.cpp file as -  g++ -o ./build/histeq_noviz -fopenmp ./src/histogram_equalization.cpp
+You can build the histogram_equalization.cpp file as -  ```g++ -o ./build/histeq_noviz -fopenmp ./src/histogram_equalization.cpp```
 
 (if you would like to launch the visualization tool from cpp itself use the makefile after uncommenting the necessary parts in histogram_equalization.cpp file)
 
-Two prebuilt executables are provided in ./build 
+Two prebuilt executables are provided in ```./build``` 
 
 Use the histeq_noviz executable as - 
 
@@ -42,5 +42,7 @@ Use the visualization_tool.py script as -
         --outimg -> file path to the output image
 
 Example usage - ```python3 visualization_tool.py --inimg ../test/sample1.png --outimg ../test/smpout1_4tdx.png --log ../logs/smpout1_4tdx.txt```
+
+
 
 
