@@ -1,0 +1,49 @@
+Processor - Hexacore AMD Ryzen 5500u 4 Ghz
+OS - Ubuntu 20.04 
+RAM - 8 gb 
+SSD - Read Speed -> 2.4 GBytes/sec 
+      Write Speed -> 2 GBytes/sec
+
+Execution Times - 
+
+    On sample1.png -
+        
+        With 4 cores -
+            Time taken without I/O included -> 90 miliseconds
+            Time taken with I/O included -> 7781 miliseconds 
+
+        With 2  cores - 
+            Time taken without I/O included -> 162 miliseconds
+            Time taken with I/O included -> 7860 miliseconds
+
+        With 1 cores - 
+            Time taken without I/O included -> 291 miliseconds
+            Time taken with I/O included -> 8060 miliseconds
+
+    On sample2.png -
+        
+        With 4 cores -
+            Time taken without I/O included -> 160 miliseconds
+            Time taken with I/O included -> 14812 miliseconds 
+
+        With 2  cores - 
+            Time taken without I/O included -> 301 miliseconds
+            Time taken with I/O included -> 14959 miliseconds
+
+        With 1 cores - 
+            Time taken without I/O included -> 567 miliseconds
+            Time taken with I/O included -> 15319 miliseconds
+
+    On sample3.png -
+        
+        With 4 cores -
+            Time taken without I/O included -> 381 miliseconds
+            Time taken with I/O included -> 26470 miliseconds 
+
+        With 2  cores - 
+            Time taken without I/O included -> 738 miliseconds
+            Time taken with I/O included -> 26630 miliseconds
+
+        With 1 cores - 
+            Time taken without I/O included -> 1428 miliseconds
+            Time taken with I/O included -> 27227 miliseconds
